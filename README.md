@@ -6,6 +6,8 @@
 [Github deploy key](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
 [Bootstrap文档](https://v3.bootcss.com/getting-started/#download)
 [Github OAuth](https://developer.github.com/apps/building-oauth-apps/creating-an-oauth-app/authorizing-oauth-apps/)
+[Maven库](https://mvnrepository.com/)
+[OkHttp文档](https://square.github.io/okhttp/)
 ## 工具
 [Git](https://git-scm.com/downloads)
 [Visual Paradigm](https://www.visual-paradigm.com)

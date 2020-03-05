@@ -1,18 +1,18 @@
 package sifan.forum.dto;
 
 public class AccessTokenDTO {
-    private String Client_id;
+    private String client_id;
     private String client_secret;
     private String code;
     private String redirect_uri;
     private String state;
 
     public String getClient_id() {
-        return Client_id;
+        return client_id;
     }
 
     public void setClient_id(String client_id) {
-        Client_id = client_id;
+        this.client_id = client_id;
     }
 
     public String getClient_secret() {

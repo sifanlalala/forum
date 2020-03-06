@@ -7,9 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import sifan.forum.dto.AccessTokenDTO;
 import sifan.forum.dto.GithubUser;
+import sifan.forum.mapper.UserMapper;
+import sifan.forum.model.User;
 import sifan.forum.provide.GithubProvider;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.UUID;
 
 @Controller
 public class AuthorizeController {
@@ -17,12 +20,17 @@ public class AuthorizeController {
     @Autowired
     private GithubProvider githubProvider;
 
-    @Value("Iv1.be207b81d5e1e4e4")
+    @Value("${github.client.id}")
     private String clientId;
-    @Value("f06a6516b99b7185ffb8853a61a02715a3df6de1")
+
+    @Value("{github.client.secret}")
     private String clientSecret;
-    @Value("http;//localhost:8887/callback")
+
+    @Value("{github.redirect.uri}")
     private String redirectUri;
+
+    @Autowired
+    private UserMapper userMapper;
 
     @GetMapping("/callback")
     public String callback(@RequestParam(name="code") String code,
@@ -35,10 +43,17 @@ public class AuthorizeController {
         accessTokenDTO.setRedirect_uri("redirectUri");
         accessTokenDTO.setState(state);
         String accessToken = githubProvider.getAccessToken(accessTokenDTO);
-        GithubUser user = githubProvider.getUser(accessToken);
-        if(user != null){
+        GithubUser githubUser = githubProvider.getUser(accessToken);
+        if(githubUser != null){
+            User user = new User();
+            user.setToken(UUID.randomUUID().toString());
+            user.setName(githubUser.getName());
+            user.setAccountId(String.valueOf(githubUser.getId()));
+            user.setGmtCreate(System.currentTimeMillis());
+            user.setGmtModified(user.getGmtCreate());
+            userMapper.insert(user);
             //登陆成功，写 cookie和 session
-            request.getSession().setAttribute("user",user);
+            request.getSession().setAttribute("user",githubUser);
             return  "redirect:/";
         }else{
             //登陆失败，重新登录

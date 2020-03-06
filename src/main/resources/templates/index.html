@@ -13,7 +13,7 @@
     <div class="container-fluid">
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">siafn论坛</span>
+                <span class="sr-only">sifan论坛</span>
             </button>
             <a class="navbar-brand" href="#">sifan论坛</a>
         </div>
@@ -36,9 +36,8 @@
                     </ul>
                 </li>
                 <li th:if="${session.user == null}">
-                    <a th:href = "@{https://github.com/login/oauth/authorize(client_id='Iv1.be207b81d5e1e4e4',redirect_uri='http://localhost:8887/callbake',scope='user',state=1)}">登录</a>
+                    <a href="https://github.com/login/oauth/authorize?client_id=Iv1.be207b81d5e1e4e4&redirect_uri=http://localhost:8887/callback&scope=user&state=1">登录</a>
                 </li>
-
             </ul>
         </div>
     </div>

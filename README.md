@@ -12,8 +12,9 @@
 ## 工具
 [Git](https://git-scm.com/downloads)
 [Visual Paradigm](https://www.visual-paradigm.com)
+[Flyway](http://flywaydb.org/getstarted/firststeps/maven)
 ##脚本
-`sql
+```sql
 CREATE TABLE USER
 (
     ID int AUTO_INCREMENT PRIMARY KEY NOT NULL,
@@ -23,4 +24,7 @@ CREATE TABLE USER
     GMT_CREATE BIGINT,
     GMT_MODIFIED BIGINT
 );
-`
+```
+```bssh
+mvn flyway:migrate
+```

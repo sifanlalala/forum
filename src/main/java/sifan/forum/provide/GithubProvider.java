@@ -7,6 +7,7 @@ import sifan.forum.dto.AccessTokenDTO;
 import sifan.forum.dto.GithubUser;
 
 import java.io.IOException;
+import java.util.concurrent.TimeUnit;
 
 @Component
 public class GithubProvider {
@@ -14,6 +15,10 @@ public class GithubProvider {
          MediaType mediaType = MediaType.get("application/json; charset=utf-8");
 
         OkHttpClient client = new OkHttpClient();
+        client = new OkHttpClient.Builder()
+                .connectTimeout(6000, TimeUnit.SECONDS)
+                .readTimeout(6000, TimeUnit.SECONDS)
+                .build();
 
         RequestBody body = RequestBody.create(mediaType, JSON.toJSONString(accessTokenDTO));
         Request request = new Request.Builder()

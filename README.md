@@ -15,6 +15,7 @@
 [Visual Paradigm](https://www.visual-paradigm.com)
 [Flyway](http://flywaydb.org/getstarted/firststeps/maven)
 [Lombok](https://www.projectlombok.org/)
+[Spring Dev Tool](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)
 ##脚本
 ```sql
 CREATE TABLE USER

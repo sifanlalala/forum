@@ -1,7 +1,11 @@
 package sifan.forum.dto;
 
 import lombok.Data;
+import org.apache.ibatis.annotations.Param;
+import sifan.forum.model.Question;
 import sifan.forum.model.User;
+
+import java.util.List;
 
 @Data
 public class QuestionDTO {
@@ -17,3 +21,4 @@ public class QuestionDTO {
     private Integer likeCount;
     private User user;
 }
+

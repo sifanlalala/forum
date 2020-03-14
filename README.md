@@ -17,7 +17,7 @@
 [Lombok](https://www.projectlombok.org/)<br>
 [Spring Dev Tool](https://docs.spring.io/spring-boot/docs/2.0.0.RC1/reference/htmlsingle/#using-boot-devtools)<br>
 [Spring MVC](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)<br>
-##脚本
+## 脚本
 ```sql
 CREATE TABLE USER
 (
@@ -31,4 +31,4 @@ CREATE TABLE USER
 ```
 ```bssh
 mvn flyway:migrate
-```
+mvn -Dmybatis.generator.overwrite=true mybatis-generator:generate

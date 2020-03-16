@@ -8,6 +8,7 @@ import sifan.forum.dto.PaginationDTO;
 import sifan.forum.dto.QuestionDTO;
 import sifan.forum.exception.CustomizeErrorCode;
 import sifan.forum.exception.CustomizeException;
+import sifan.forum.mapper.QuestionExtMapper;
 import sifan.forum.mapper.QuestionMapper;
 import sifan.forum.mapper.UserMapper;
 import sifan.forum.model.Question;
@@ -22,6 +23,9 @@ public class QuestionService {
 
     @Autowired
     private QuestionMapper questionMapper;
+
+    @Autowired
+    private QuestionExtMapper questionExtMapper;
 
     @Autowired
     private UserMapper userMapper;
@@ -118,6 +122,9 @@ public class QuestionService {
             //创建
             question.setGmtCreate(System.currentTimeMillis());
             question.setGmtModified(question.getGmtCreate());
+            question.setViewCount(0);
+            question.setCommentCount(0);
+            question.setLikeCount(0);
             questionMapper.insert(question);
         }else {
             //更新
@@ -133,5 +140,12 @@ public class QuestionService {
                 throw new CustomizeException(CustomizeErrorCode.QUESTION_NOT_FOUND);
             }
         }
+    }
+
+    public void incView(Long id) {
+        Question question = new Question();
+        question.setId(id);
+        question.setViewCount(1);
+        questionExtMapper.incView(question);
     }
 }

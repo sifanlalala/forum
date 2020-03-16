@@ -35,6 +35,7 @@
 
         <table schema="forum" tableName="user" domainObjectName="User" ></table>
         <table schema="forum" tableName="question" domainObjectName="Question" ></table>
+        <table schema="forum" tableName="comment" domainObjectName="Comment" ></table>
 
     </context>
 </generatorConfiguration>

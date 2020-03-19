@@ -9,4 +9,5 @@ import sifan.forum.model.QuestionExample;
 public interface QuestionExtMapper {
     int incView(Question record);
     int incCommentCount(Question record);
+    List<Question> selectRelated(Question question);
 }

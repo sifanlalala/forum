@@ -19,7 +19,7 @@
     }
 </script>
 <body>
-<div th:insert="navigation.html :: nav"></div>
+<div th:insert="~{navigation :: nav}"></div>
 <div class="container-fluid main">
     <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -72,9 +72,15 @@
             </nav>
         </div>
         <div class="col-lg-3 col-md-12 col-sm-12 col-xs-12">
-            <h3>热门话题</h3>
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                <h4>点我没有惊喜哦</h4>
+                <img class="img-rounded question-timg" src="/images/timg.jpg">
+            </div>
         </div>
     </div>
+</div>
+<div class="footer">
+    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
 </div>
 </body>
 </html>

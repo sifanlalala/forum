@@ -16,7 +16,7 @@
     <script src="/js/lib/prettify.min.js"></script>
 </head>
 <body>
-<div th:insert="navigation.html :: nav"></div>
+<div th:insert="~{navigation :: nav}"></div>
 <div class="container-fluid main profile">
     <div class="row">
 
@@ -160,6 +160,9 @@
             </div>
         </div>
     </div>
+</div>
+<div class="footer">
+    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
 </div>
 </body>
 </html>

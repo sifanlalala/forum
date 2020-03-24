@@ -12,7 +12,7 @@
     <script src="/js/editormd.min.js" type="application/javascript"></script>
 </head>
 <body>
-<div th:insert="navigation.html :: nav"></div>
+<div th:insert="~{navigation :: nav}"></div>
 <div class="container-fluid main">
     <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -70,6 +70,9 @@
             •选择标签：选择一个或多个适合的标签，用逗号隔开，每个标签不超过10个字<br>
         </div>
     </div>
+</div>
+<div class="footer">
+    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
 </div>
 </body>
 </html>

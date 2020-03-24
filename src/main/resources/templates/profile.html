@@ -10,7 +10,7 @@
     <script src="/js/bootstrap.min.js" type="application/javascript"></script>
 </head>
 <body>
-<div th:insert="navigation.html :: nav"></div>
+<div th:insert="~{navigation :: nav}"></div>
 <div class="container-fluid main profile">
     <div class="row">
         <div class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
@@ -90,6 +90,9 @@
             </div>
         </div>
     </div>
+</div>
+<div class="footer">
+    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
 </div>
 </body>
 </html>

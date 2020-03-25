@@ -12,6 +12,7 @@
 [Thymeleaf](https://www.thymeleaf.org/doc/tutorials/3.0/usingthymeleaf.html#setting-attribute-values)<br>
 [Editor.md](http://editor.md.ipandao.com/)<br>
 [iconfont](https://www.iconfont.cn/)<br>
+[Scheduling Tasks](https://spring.io/guides/gs/scheduling-tasks/)<br>
 ## 工具
 [Git](https://git-scm.com/downloads)<br>
 [Visual Paradigm](https://www.visual-paradigm.com)<br>

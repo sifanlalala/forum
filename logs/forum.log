@@ -17,3 +17,1246 @@
 2020-03-25 14:01:37.055  INFO 19344 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
 2020-03-25 14:01:37.102  INFO 19344 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
 2020-03-25 14:01:37.106  INFO 19344 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.136 seconds (JVM running for 6.542)
+2020-03-25 14:47:55.803  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 18728 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 14:47:55.807  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 14:47:55.866  INFO 18728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 14:47:55.867  INFO 18728 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 14:47:57.343  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 14:47:57.351  INFO 18728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 14:47:57.351  INFO 18728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 14:47:57.354  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 14:47:57.355  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 14:47:57.355  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 14:47:57.356  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 14:47:58.422  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 14:47:58.746  INFO 18728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 14:47:58.746  INFO 18728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2879 ms
+2020-03-25 14:47:59.360  INFO 18728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 14:47:59.420  INFO 18728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 14:47:59.794  INFO 18728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 14:47:59.841  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 14:47:59.844  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.543 seconds (JVM running for 6.542)
+2020-03-25 15:18:43.560  INFO 18728 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:18:44.398  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 18728 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 15:18:44.398  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 15:18:45.015  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 15:18:45.016  INFO 18728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:18:45.016  INFO 18728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:18:45.017  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 15:18:45.018  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 15:18:45.020  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 15:18:45.020  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 15:18:45.021  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 15:18:45.245  INFO 18728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:18:45.245  INFO 18728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 844 ms
+2020-03-25 15:18:45.469  INFO 18728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:18:45.490  INFO 18728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:18:45.834  INFO 18728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:18:45.853  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 15:18:45.854  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 1.49 seconds (JVM running for 1852.552)
+2020-03-25 15:18:45.856  INFO 18728 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:20:00.838  INFO 18728 --- [Thread-21] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:20:01.822  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 18728 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 15:20:01.822  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 15:20:02.327  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 15:20:02.327  INFO 18728 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:20:02.327  INFO 18728 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:20:02.328  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 15:20:02.328  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 15:20:02.328  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 15:20:02.329  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 15:20:02.329  INFO 18728 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 15:20:02.468  INFO 18728 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:20:02.468  INFO 18728 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 643 ms
+2020-03-25 15:20:02.648  INFO 18728 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:20:02.663  INFO 18728 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:20:02.976  INFO 18728 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:20:02.991  INFO 18728 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 15:20:02.992  INFO 18728 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 1.202 seconds (JVM running for 1929.69)
+2020-03-25 15:20:02.994  INFO 18728 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:21:20.590  INFO 10796 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 10796 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 15:21:20.595  INFO 10796 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 15:21:20.651  INFO 10796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:21:20.651  INFO 10796 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:21:22.227  INFO 10796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 15:21:22.237  INFO 10796 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:21:22.237  INFO 10796 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:21:22.239  INFO 10796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 15:21:22.239  INFO 10796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 15:21:22.240  INFO 10796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 15:21:22.240  INFO 10796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 15:21:23.290  INFO 10796 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 15:21:23.565  INFO 10796 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:21:23.565  INFO 10796 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2914 ms
+2020-03-25 15:21:24.200  INFO 10796 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:21:24.258  INFO 10796 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:21:24.361  INFO 10796 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 15:21:24.649  INFO 10796 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:21:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:24 GMT+08:00 2020
+2020-03-25 15:21:24.721  INFO 10796 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 15:21:24.727  INFO 10796 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.596 seconds (JVM running for 6.867)
+2020-03-25 15:21:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:29 GMT+08:00 2020
+2020-03-25 15:21:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:34 GMT+08:00 2020
+2020-03-25 15:21:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:39 GMT+08:00 2020
+2020-03-25 15:21:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:44 GMT+08:00 2020
+2020-03-25 15:21:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:49 GMT+08:00 2020
+2020-03-25 15:21:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:54 GMT+08:00 2020
+2020-03-25 15:21:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:21:59 GMT+08:00 2020
+2020-03-25 15:22:04.688  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:04 GMT+08:00 2020
+2020-03-25 15:22:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:09 GMT+08:00 2020
+2020-03-25 15:22:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:14 GMT+08:00 2020
+2020-03-25 15:22:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:19 GMT+08:00 2020
+2020-03-25 15:22:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:24 GMT+08:00 2020
+2020-03-25 15:22:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:29 GMT+08:00 2020
+2020-03-25 15:22:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:34 GMT+08:00 2020
+2020-03-25 15:22:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:39 GMT+08:00 2020
+2020-03-25 15:22:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:44 GMT+08:00 2020
+2020-03-25 15:22:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:49 GMT+08:00 2020
+2020-03-25 15:22:54.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:54 GMT+08:00 2020
+2020-03-25 15:22:59.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:22:59 GMT+08:00 2020
+2020-03-25 15:23:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:04 GMT+08:00 2020
+2020-03-25 15:23:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:09 GMT+08:00 2020
+2020-03-25 15:23:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:14 GMT+08:00 2020
+2020-03-25 15:23:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:19 GMT+08:00 2020
+2020-03-25 15:23:24.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:24 GMT+08:00 2020
+2020-03-25 15:23:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:29 GMT+08:00 2020
+2020-03-25 15:23:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:34 GMT+08:00 2020
+2020-03-25 15:23:39.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:39 GMT+08:00 2020
+2020-03-25 15:23:44.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:44 GMT+08:00 2020
+2020-03-25 15:23:49.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:49 GMT+08:00 2020
+2020-03-25 15:23:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:54 GMT+08:00 2020
+2020-03-25 15:23:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:23:59 GMT+08:00 2020
+2020-03-25 15:24:04.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:04 GMT+08:00 2020
+2020-03-25 15:24:09.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:09 GMT+08:00 2020
+2020-03-25 15:24:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:14 GMT+08:00 2020
+2020-03-25 15:24:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:19 GMT+08:00 2020
+2020-03-25 15:24:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:24 GMT+08:00 2020
+2020-03-25 15:24:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:29 GMT+08:00 2020
+2020-03-25 15:24:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:34 GMT+08:00 2020
+2020-03-25 15:24:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:39 GMT+08:00 2020
+2020-03-25 15:24:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:44 GMT+08:00 2020
+2020-03-25 15:24:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:49 GMT+08:00 2020
+2020-03-25 15:24:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:54 GMT+08:00 2020
+2020-03-25 15:24:59.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:24:59 GMT+08:00 2020
+2020-03-25 15:25:04.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:04 GMT+08:00 2020
+2020-03-25 15:25:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:09 GMT+08:00 2020
+2020-03-25 15:25:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:14 GMT+08:00 2020
+2020-03-25 15:25:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:19 GMT+08:00 2020
+2020-03-25 15:25:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:24 GMT+08:00 2020
+2020-03-25 15:25:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:29 GMT+08:00 2020
+2020-03-25 15:25:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:34 GMT+08:00 2020
+2020-03-25 15:25:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:39 GMT+08:00 2020
+2020-03-25 15:25:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:44 GMT+08:00 2020
+2020-03-25 15:25:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:49 GMT+08:00 2020
+2020-03-25 15:25:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:54 GMT+08:00 2020
+2020-03-25 15:25:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:25:59 GMT+08:00 2020
+2020-03-25 15:26:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:04 GMT+08:00 2020
+2020-03-25 15:26:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:09 GMT+08:00 2020
+2020-03-25 15:26:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:14 GMT+08:00 2020
+2020-03-25 15:26:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:19 GMT+08:00 2020
+2020-03-25 15:26:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:24 GMT+08:00 2020
+2020-03-25 15:26:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:29 GMT+08:00 2020
+2020-03-25 15:26:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:34 GMT+08:00 2020
+2020-03-25 15:26:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:39 GMT+08:00 2020
+2020-03-25 15:26:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:44 GMT+08:00 2020
+2020-03-25 15:26:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:49 GMT+08:00 2020
+2020-03-25 15:26:54.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:54 GMT+08:00 2020
+2020-03-25 15:26:59.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:26:59 GMT+08:00 2020
+2020-03-25 15:27:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:04 GMT+08:00 2020
+2020-03-25 15:27:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:09 GMT+08:00 2020
+2020-03-25 15:27:14.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:14 GMT+08:00 2020
+2020-03-25 15:27:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:19 GMT+08:00 2020
+2020-03-25 15:27:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:24 GMT+08:00 2020
+2020-03-25 15:27:29.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:29 GMT+08:00 2020
+2020-03-25 15:27:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:34 GMT+08:00 2020
+2020-03-25 15:27:39.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:39 GMT+08:00 2020
+2020-03-25 15:27:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:44 GMT+08:00 2020
+2020-03-25 15:27:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:49 GMT+08:00 2020
+2020-03-25 15:27:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:54 GMT+08:00 2020
+2020-03-25 15:27:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:27:59 GMT+08:00 2020
+2020-03-25 15:28:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:04 GMT+08:00 2020
+2020-03-25 15:28:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:09 GMT+08:00 2020
+2020-03-25 15:28:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:14 GMT+08:00 2020
+2020-03-25 15:28:19.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:19 GMT+08:00 2020
+2020-03-25 15:28:24.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:24 GMT+08:00 2020
+2020-03-25 15:28:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:29 GMT+08:00 2020
+2020-03-25 15:28:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:34 GMT+08:00 2020
+2020-03-25 15:28:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:39 GMT+08:00 2020
+2020-03-25 15:28:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:44 GMT+08:00 2020
+2020-03-25 15:28:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:49 GMT+08:00 2020
+2020-03-25 15:28:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:54 GMT+08:00 2020
+2020-03-25 15:28:59.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:28:59 GMT+08:00 2020
+2020-03-25 15:29:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:04 GMT+08:00 2020
+2020-03-25 15:29:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:09 GMT+08:00 2020
+2020-03-25 15:29:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:14 GMT+08:00 2020
+2020-03-25 15:29:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:19 GMT+08:00 2020
+2020-03-25 15:29:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:24 GMT+08:00 2020
+2020-03-25 15:29:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:29 GMT+08:00 2020
+2020-03-25 15:29:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:34 GMT+08:00 2020
+2020-03-25 15:29:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:39 GMT+08:00 2020
+2020-03-25 15:29:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:44 GMT+08:00 2020
+2020-03-25 15:29:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:49 GMT+08:00 2020
+2020-03-25 15:29:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:54 GMT+08:00 2020
+2020-03-25 15:29:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:29:59 GMT+08:00 2020
+2020-03-25 15:30:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:04 GMT+08:00 2020
+2020-03-25 15:30:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:09 GMT+08:00 2020
+2020-03-25 15:30:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:14 GMT+08:00 2020
+2020-03-25 15:30:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:19 GMT+08:00 2020
+2020-03-25 15:30:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:24 GMT+08:00 2020
+2020-03-25 15:30:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:29 GMT+08:00 2020
+2020-03-25 15:30:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:34 GMT+08:00 2020
+2020-03-25 15:30:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:39 GMT+08:00 2020
+2020-03-25 15:30:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:44 GMT+08:00 2020
+2020-03-25 15:30:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:49 GMT+08:00 2020
+2020-03-25 15:30:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:54 GMT+08:00 2020
+2020-03-25 15:30:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:30:59 GMT+08:00 2020
+2020-03-25 15:31:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:04 GMT+08:00 2020
+2020-03-25 15:31:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:09 GMT+08:00 2020
+2020-03-25 15:31:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:14 GMT+08:00 2020
+2020-03-25 15:31:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:19 GMT+08:00 2020
+2020-03-25 15:31:24.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:24 GMT+08:00 2020
+2020-03-25 15:31:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:29 GMT+08:00 2020
+2020-03-25 15:31:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:34 GMT+08:00 2020
+2020-03-25 15:31:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:39 GMT+08:00 2020
+2020-03-25 15:31:44.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:44 GMT+08:00 2020
+2020-03-25 15:31:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:49 GMT+08:00 2020
+2020-03-25 15:31:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:54 GMT+08:00 2020
+2020-03-25 15:31:59.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:31:59 GMT+08:00 2020
+2020-03-25 15:32:04.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:04 GMT+08:00 2020
+2020-03-25 15:32:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:09 GMT+08:00 2020
+2020-03-25 15:32:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:14 GMT+08:00 2020
+2020-03-25 15:32:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:19 GMT+08:00 2020
+2020-03-25 15:32:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:24 GMT+08:00 2020
+2020-03-25 15:32:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:29 GMT+08:00 2020
+2020-03-25 15:32:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:34 GMT+08:00 2020
+2020-03-25 15:32:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:39 GMT+08:00 2020
+2020-03-25 15:32:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:44 GMT+08:00 2020
+2020-03-25 15:32:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:49 GMT+08:00 2020
+2020-03-25 15:32:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:54 GMT+08:00 2020
+2020-03-25 15:32:59.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:32:59 GMT+08:00 2020
+2020-03-25 15:33:04.686  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:04 GMT+08:00 2020
+2020-03-25 15:33:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:09 GMT+08:00 2020
+2020-03-25 15:33:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:14 GMT+08:00 2020
+2020-03-25 15:33:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:19 GMT+08:00 2020
+2020-03-25 15:33:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:24 GMT+08:00 2020
+2020-03-25 15:33:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:29 GMT+08:00 2020
+2020-03-25 15:33:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:34 GMT+08:00 2020
+2020-03-25 15:33:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:39 GMT+08:00 2020
+2020-03-25 15:33:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:44 GMT+08:00 2020
+2020-03-25 15:33:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:49 GMT+08:00 2020
+2020-03-25 15:33:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:54 GMT+08:00 2020
+2020-03-25 15:33:59.709  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:33:59 GMT+08:00 2020
+2020-03-25 15:34:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:04 GMT+08:00 2020
+2020-03-25 15:34:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:09 GMT+08:00 2020
+2020-03-25 15:34:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:14 GMT+08:00 2020
+2020-03-25 15:34:19.686  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:19 GMT+08:00 2020
+2020-03-25 15:34:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:24 GMT+08:00 2020
+2020-03-25 15:34:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:29 GMT+08:00 2020
+2020-03-25 15:34:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:34 GMT+08:00 2020
+2020-03-25 15:34:39.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:39 GMT+08:00 2020
+2020-03-25 15:34:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:44 GMT+08:00 2020
+2020-03-25 15:34:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:49 GMT+08:00 2020
+2020-03-25 15:34:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:54 GMT+08:00 2020
+2020-03-25 15:34:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:34:59 GMT+08:00 2020
+2020-03-25 15:35:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:04 GMT+08:00 2020
+2020-03-25 15:35:09.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:09 GMT+08:00 2020
+2020-03-25 15:35:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:14 GMT+08:00 2020
+2020-03-25 15:35:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:19 GMT+08:00 2020
+2020-03-25 15:35:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:24 GMT+08:00 2020
+2020-03-25 15:35:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:29 GMT+08:00 2020
+2020-03-25 15:35:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:34 GMT+08:00 2020
+2020-03-25 15:35:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:39 GMT+08:00 2020
+2020-03-25 15:35:44.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:44 GMT+08:00 2020
+2020-03-25 15:35:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:49 GMT+08:00 2020
+2020-03-25 15:35:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:54 GMT+08:00 2020
+2020-03-25 15:35:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:35:59 GMT+08:00 2020
+2020-03-25 15:36:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:04 GMT+08:00 2020
+2020-03-25 15:36:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:09 GMT+08:00 2020
+2020-03-25 15:36:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:14 GMT+08:00 2020
+2020-03-25 15:36:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:19 GMT+08:00 2020
+2020-03-25 15:36:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:24 GMT+08:00 2020
+2020-03-25 15:36:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:29 GMT+08:00 2020
+2020-03-25 15:36:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:34 GMT+08:00 2020
+2020-03-25 15:36:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:39 GMT+08:00 2020
+2020-03-25 15:36:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:44 GMT+08:00 2020
+2020-03-25 15:36:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:49 GMT+08:00 2020
+2020-03-25 15:36:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:54 GMT+08:00 2020
+2020-03-25 15:36:59.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:36:59 GMT+08:00 2020
+2020-03-25 15:37:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:04 GMT+08:00 2020
+2020-03-25 15:37:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:09 GMT+08:00 2020
+2020-03-25 15:37:14.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:14 GMT+08:00 2020
+2020-03-25 15:37:19.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:19 GMT+08:00 2020
+2020-03-25 15:37:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:24 GMT+08:00 2020
+2020-03-25 15:37:29.702  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:29 GMT+08:00 2020
+2020-03-25 15:37:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:34 GMT+08:00 2020
+2020-03-25 15:37:39.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:39 GMT+08:00 2020
+2020-03-25 15:37:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:44 GMT+08:00 2020
+2020-03-25 15:37:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:49 GMT+08:00 2020
+2020-03-25 15:37:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:54 GMT+08:00 2020
+2020-03-25 15:37:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:37:59 GMT+08:00 2020
+2020-03-25 15:38:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:04 GMT+08:00 2020
+2020-03-25 15:38:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:09 GMT+08:00 2020
+2020-03-25 15:38:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:14 GMT+08:00 2020
+2020-03-25 15:38:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:19 GMT+08:00 2020
+2020-03-25 15:38:24.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:24 GMT+08:00 2020
+2020-03-25 15:38:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:29 GMT+08:00 2020
+2020-03-25 15:38:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:34 GMT+08:00 2020
+2020-03-25 15:38:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:39 GMT+08:00 2020
+2020-03-25 15:38:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:44 GMT+08:00 2020
+2020-03-25 15:38:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:49 GMT+08:00 2020
+2020-03-25 15:38:54.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:54 GMT+08:00 2020
+2020-03-25 15:38:59.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:38:59 GMT+08:00 2020
+2020-03-25 15:39:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:04 GMT+08:00 2020
+2020-03-25 15:39:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:09 GMT+08:00 2020
+2020-03-25 15:39:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:14 GMT+08:00 2020
+2020-03-25 15:39:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:19 GMT+08:00 2020
+2020-03-25 15:39:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:24 GMT+08:00 2020
+2020-03-25 15:39:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:29 GMT+08:00 2020
+2020-03-25 15:39:34.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:34 GMT+08:00 2020
+2020-03-25 15:39:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:39 GMT+08:00 2020
+2020-03-25 15:39:44.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:44 GMT+08:00 2020
+2020-03-25 15:39:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:49 GMT+08:00 2020
+2020-03-25 15:39:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:54 GMT+08:00 2020
+2020-03-25 15:39:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:39:59 GMT+08:00 2020
+2020-03-25 15:40:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:04 GMT+08:00 2020
+2020-03-25 15:40:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:09 GMT+08:00 2020
+2020-03-25 15:40:14.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:14 GMT+08:00 2020
+2020-03-25 15:40:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:19 GMT+08:00 2020
+2020-03-25 15:40:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:24 GMT+08:00 2020
+2020-03-25 15:40:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:29 GMT+08:00 2020
+2020-03-25 15:40:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:34 GMT+08:00 2020
+2020-03-25 15:40:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:39 GMT+08:00 2020
+2020-03-25 15:40:44.686  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:44 GMT+08:00 2020
+2020-03-25 15:40:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:49 GMT+08:00 2020
+2020-03-25 15:40:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:54 GMT+08:00 2020
+2020-03-25 15:40:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:40:59 GMT+08:00 2020
+2020-03-25 15:41:04.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:04 GMT+08:00 2020
+2020-03-25 15:41:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:09 GMT+08:00 2020
+2020-03-25 15:41:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:14 GMT+08:00 2020
+2020-03-25 15:41:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:19 GMT+08:00 2020
+2020-03-25 15:41:24.708  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:24 GMT+08:00 2020
+2020-03-25 15:41:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:29 GMT+08:00 2020
+2020-03-25 15:41:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:34 GMT+08:00 2020
+2020-03-25 15:41:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:39 GMT+08:00 2020
+2020-03-25 15:41:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:44 GMT+08:00 2020
+2020-03-25 15:41:49.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:49 GMT+08:00 2020
+2020-03-25 15:41:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:54 GMT+08:00 2020
+2020-03-25 15:41:59.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:41:59 GMT+08:00 2020
+2020-03-25 15:42:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:04 GMT+08:00 2020
+2020-03-25 15:42:09.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:09 GMT+08:00 2020
+2020-03-25 15:42:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:14 GMT+08:00 2020
+2020-03-25 15:42:19.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:19 GMT+08:00 2020
+2020-03-25 15:42:24.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:24 GMT+08:00 2020
+2020-03-25 15:42:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:29 GMT+08:00 2020
+2020-03-25 15:42:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:34 GMT+08:00 2020
+2020-03-25 15:42:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:39 GMT+08:00 2020
+2020-03-25 15:42:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:44 GMT+08:00 2020
+2020-03-25 15:42:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:49 GMT+08:00 2020
+2020-03-25 15:42:54.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:54 GMT+08:00 2020
+2020-03-25 15:42:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:42:59 GMT+08:00 2020
+2020-03-25 15:43:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:04 GMT+08:00 2020
+2020-03-25 15:43:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:09 GMT+08:00 2020
+2020-03-25 15:43:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:14 GMT+08:00 2020
+2020-03-25 15:43:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:19 GMT+08:00 2020
+2020-03-25 15:43:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:24 GMT+08:00 2020
+2020-03-25 15:43:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:29 GMT+08:00 2020
+2020-03-25 15:43:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:34 GMT+08:00 2020
+2020-03-25 15:43:39.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:39 GMT+08:00 2020
+2020-03-25 15:43:44.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:44 GMT+08:00 2020
+2020-03-25 15:43:49.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:49 GMT+08:00 2020
+2020-03-25 15:43:54.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:54 GMT+08:00 2020
+2020-03-25 15:43:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:43:59 GMT+08:00 2020
+2020-03-25 15:44:04.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:04 GMT+08:00 2020
+2020-03-25 15:44:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:09 GMT+08:00 2020
+2020-03-25 15:44:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:14 GMT+08:00 2020
+2020-03-25 15:44:19.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:19 GMT+08:00 2020
+2020-03-25 15:44:24.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:24 GMT+08:00 2020
+2020-03-25 15:44:29.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:29 GMT+08:00 2020
+2020-03-25 15:44:34.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:34 GMT+08:00 2020
+2020-03-25 15:44:39.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:39 GMT+08:00 2020
+2020-03-25 15:44:44.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:44 GMT+08:00 2020
+2020-03-25 15:44:49.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:49 GMT+08:00 2020
+2020-03-25 15:44:54.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:54 GMT+08:00 2020
+2020-03-25 15:44:59.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:44:59 GMT+08:00 2020
+2020-03-25 15:45:04.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:04 GMT+08:00 2020
+2020-03-25 15:45:09.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:09 GMT+08:00 2020
+2020-03-25 15:45:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:14 GMT+08:00 2020
+2020-03-25 15:45:19.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:19 GMT+08:00 2020
+2020-03-25 15:45:24.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:24 GMT+08:00 2020
+2020-03-25 15:45:29.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:29 GMT+08:00 2020
+2020-03-25 15:45:34.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:34 GMT+08:00 2020
+2020-03-25 15:45:39.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:39 GMT+08:00 2020
+2020-03-25 15:45:44.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:44 GMT+08:00 2020
+2020-03-25 15:45:49.684  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:49 GMT+08:00 2020
+2020-03-25 15:45:54.683  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:54 GMT+08:00 2020
+2020-03-25 15:45:59.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:45:59 GMT+08:00 2020
+2020-03-25 15:46:04.687  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:46:04 GMT+08:00 2020
+2020-03-25 15:46:09.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:46:09 GMT+08:00 2020
+2020-03-25 15:46:14.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:46:14 GMT+08:00 2020
+2020-03-25 15:46:19.685  INFO 10796 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : The time is now Wed Mar 25 15:46:19 GMT+08:00 2020
+2020-03-25 15:46:31.466  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 10940 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 15:46:31.471  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 15:46:31.523  INFO 10940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 15:46:31.523  INFO 10940 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 15:46:32.828  INFO 10940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 15:46:32.844  INFO 10940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:46:32.844  INFO 10940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:46:32.847  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 15:46:32.847  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 15:46:32.847  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 15:46:32.847  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 15:46:33.911  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 15:46:34.227  INFO 10940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:46:34.227  INFO 10940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2704 ms
+2020-03-25 15:46:34.852  INFO 10940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:46:34.912  INFO 10940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:46:35.014  INFO 10940 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 15:46:35.304  INFO 10940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:46:35.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:46:35 GMT+08:00 2020
+2020-03-25 15:46:35.331  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:46:35 GMT+08:00 2020
+2020-03-25 15:46:35.352  INFO 10940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 15:46:35.355  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.289 seconds (JVM running for 6.433)
+2020-03-25 15:46:45.329  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:46:45 GMT+08:00 2020
+2020-03-25 15:46:45.329  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:46:45 GMT+08:00 2020
+2020-03-25 15:46:55.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:46:55 GMT+08:00 2020
+2020-03-25 15:46:55.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:46:55 GMT+08:00 2020
+2020-03-25 15:47:05.331  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:05 GMT+08:00 2020
+2020-03-25 15:47:05.331  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:05 GMT+08:00 2020
+2020-03-25 15:47:15.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:15 GMT+08:00 2020
+2020-03-25 15:47:15.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:15 GMT+08:00 2020
+2020-03-25 15:47:25.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:25 GMT+08:00 2020
+2020-03-25 15:47:25.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:25 GMT+08:00 2020
+2020-03-25 15:47:25.441  INFO 10940 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:47:25.443  INFO 10940 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:47:25.452  INFO 10940 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-25 15:47:25.519  INFO 10940 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 15:47:25.652  INFO 10940 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 15:47:35.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:35 GMT+08:00 2020
+2020-03-25 15:47:35.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:35 GMT+08:00 2020
+2020-03-25 15:47:45.331  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:45 GMT+08:00 2020
+2020-03-25 15:47:45.331  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:45 GMT+08:00 2020
+2020-03-25 15:47:55.329  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:47:55 GMT+08:00 2020
+2020-03-25 15:47:55.329  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:47:55 GMT+08:00 2020
+2020-03-25 15:48:05.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:48:05 GMT+08:00 2020
+2020-03-25 15:48:05.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:48:05 GMT+08:00 2020
+2020-03-25 15:48:15.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:48:15 GMT+08:00 2020
+2020-03-25 15:48:15.330  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:48:15 GMT+08:00 2020
+2020-03-25 15:48:25.334  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 15:48:25 GMT+08:00 2020
+2020-03-25 15:48:25.335  INFO 10940 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 15:48:25 GMT+08:00 2020
+2020-03-25 15:48:28.153  INFO 10940 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-03-25 15:48:28.155  INFO 10940 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:48:28.156  INFO 10940 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 15:48:28.170  INFO 10940 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 15:48:29.211  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 10940 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 15:48:29.212  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 15:48:29.792  INFO 10940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 15:48:29.792  INFO 10940 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 15:48:29.793  INFO 10940 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 15:48:29.793  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 15:48:29.793  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 15:48:29.793  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 15:48:29.793  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 15:48:29.794  INFO 10940 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 15:48:29.951  INFO 10940 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 15:48:29.952  INFO 10940 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 737 ms
+2020-03-25 15:48:30.200  INFO 10940 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 15:48:30.217  INFO 10940 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 15:48:30.256  INFO 10940 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 15:48:30.538  INFO 10940 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 15:48:30.566  INFO 10940 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 15:48:30.567  INFO 10940 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 1.385 seconds (JVM running for 121.645)
+2020-03-25 15:48:30.578  INFO 10940 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 15:49:14.018  INFO 10940 --- [http-nio-8887-exec-9] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 15:49:14.019  INFO 10940 --- [http-nio-8887-exec-9] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 15:49:14.024  INFO 10940 --- [http-nio-8887-exec-9] o.s.web.servlet.DispatcherServlet        : Completed initialization in 5 ms
+2020-03-25 15:49:14.028  INFO 10940 --- [http-nio-8887-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-25 15:49:14.036  INFO 10940 --- [http-nio-8887-exec-9] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-25 16:19:30.112  INFO 10404 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 10404 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 16:19:30.115  INFO 10404 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 16:19:30.165  INFO 10404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:19:30.166  INFO 10404 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:19:31.707  INFO 10404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 16:19:31.716  INFO 10404 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:19:31.716  INFO 10404 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:19:31.718  INFO 10404 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 16:19:31.718  INFO 10404 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 16:19:31.718  INFO 10404 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 16:19:31.719  INFO 10404 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 16:19:32.804  INFO 10404 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 16:19:33.165  INFO 10404 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:19:33.166  INFO 10404 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 3000 ms
+2020-03-25 16:19:33.796  INFO 10404 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:19:33.859  INFO 10404 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:19:33.969  INFO 10404 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 16:19:34.261  INFO 10404 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:19:34.286  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:19:34 GMT+08:00 2020
+2020-03-25 16:19:34.315  INFO 10404 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 16:19:34.318  INFO 10404 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.65 seconds (JVM running for 6.59)
+2020-03-25 16:19:34.325  INFO 10404 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:19:34.453  INFO 10404 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:19:34.500  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:19:34 GMT+08:00 2020
+2020-03-25 16:19:44.286  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:19:44 GMT+08:00 2020
+2020-03-25 16:19:44.300  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:19:44 GMT+08:00 2020
+2020-03-25 16:19:54.286  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:19:54 GMT+08:00 2020
+2020-03-25 16:19:54.297  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:19:54 GMT+08:00 2020
+2020-03-25 16:20:04.288  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:04 GMT+08:00 2020
+2020-03-25 16:20:04.293  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:04 GMT+08:00 2020
+2020-03-25 16:20:14.287  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:14 GMT+08:00 2020
+2020-03-25 16:20:14.292  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:14 GMT+08:00 2020
+2020-03-25 16:20:24.288  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:24 GMT+08:00 2020
+2020-03-25 16:20:24.296  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:24 GMT+08:00 2020
+2020-03-25 16:20:34.287  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:34 GMT+08:00 2020
+2020-03-25 16:20:34.293  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:34 GMT+08:00 2020
+2020-03-25 16:20:44.288  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:44 GMT+08:00 2020
+2020-03-25 16:20:44.298  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:44 GMT+08:00 2020
+2020-03-25 16:20:54.288  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:20:54 GMT+08:00 2020
+2020-03-25 16:20:54.298  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:20:54 GMT+08:00 2020
+2020-03-25 16:21:04.286  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:21:04 GMT+08:00 2020
+2020-03-25 16:21:04.290  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:21:04 GMT+08:00 2020
+2020-03-25 16:21:14.287  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:21:14 GMT+08:00 2020
+2020-03-25 16:21:14.293  INFO 10404 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:21:14 GMT+08:00 2020
+2020-03-25 16:26:53.913  INFO 18216 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 18216 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 16:26:53.918  INFO 18216 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 16:26:53.968  INFO 18216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 16:26:53.969  INFO 18216 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 16:26:55.258  INFO 18216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 16:26:55.268  INFO 18216 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 16:26:55.268  INFO 18216 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 16:26:55.270  INFO 18216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 16:26:55.270  INFO 18216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 16:26:55.271  INFO 18216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 16:26:55.271  INFO 18216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 16:26:56.324  INFO 18216 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 16:26:56.639  INFO 18216 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 16:26:56.640  INFO 18216 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2671 ms
+2020-03-25 16:26:57.374  INFO 18216 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 16:26:57.431  INFO 18216 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 16:26:57.531  INFO 18216 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 16:26:57.825  INFO 18216 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 16:26:57.850  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:26:57 GMT+08:00 2020
+2020-03-25 16:26:57.877  INFO 18216 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 16:26:57.880  INFO 18216 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.397 seconds (JVM running for 6.418)
+2020-03-25 16:26:57.887  INFO 18216 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 16:26:58.000  INFO 18216 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 16:26:58.048  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:26:58 GMT+08:00 2020
+2020-03-25 16:27:07.850  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:07 GMT+08:00 2020
+2020-03-25 16:27:07.865  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:07 GMT+08:00 2020
+2020-03-25 16:27:17.849  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:17 GMT+08:00 2020
+2020-03-25 16:27:17.854  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:17 GMT+08:00 2020
+2020-03-25 16:27:27.849  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:27 GMT+08:00 2020
+2020-03-25 16:27:27.861  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:27 GMT+08:00 2020
+2020-03-25 16:27:37.849  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:37 GMT+08:00 2020
+2020-03-25 16:27:37.854  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:37 GMT+08:00 2020
+2020-03-25 16:27:47.850  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:47 GMT+08:00 2020
+2020-03-25 16:27:47.861  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:47 GMT+08:00 2020
+2020-03-25 16:27:57.851  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:27:57 GMT+08:00 2020
+2020-03-25 16:27:57.855  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:27:57 GMT+08:00 2020
+2020-03-25 16:28:07.849  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:28:07 GMT+08:00 2020
+2020-03-25 16:28:07.857  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:28:07 GMT+08:00 2020
+2020-03-25 16:28:17.850  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:28:17 GMT+08:00 2020
+2020-03-25 16:28:17.861  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:28:17 GMT+08:00 2020
+2020-03-25 16:28:27.850  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 16:28:27 GMT+08:00 2020
+2020-03-25 16:28:27.860  INFO 18216 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 16:28:27 GMT+08:00 2020
+2020-03-25 17:12:30.664  INFO 12004 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 12004 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:12:30.667  INFO 12004 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:12:30.739  INFO 12004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:12:30.739  INFO 12004 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:12:32.197  INFO 12004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:12:32.207  INFO 12004 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:12:32.207  INFO 12004 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:12:32.210  INFO 12004 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:12:32.211  INFO 12004 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:12:32.211  INFO 12004 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:12:32.211  INFO 12004 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:12:33.281  INFO 12004 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:12:33.599  INFO 12004 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:12:33.600  INFO 12004 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2861 ms
+2020-03-25 17:12:34.261  INFO 12004 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:12:34.323  INFO 12004 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:12:34.440  INFO 12004 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 17:12:34.729  INFO 12004 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:12:34.755  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:12:34 GMT+08:00 2020
+2020-03-25 17:12:34.783  INFO 12004 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 17:12:34.786  INFO 12004 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.574 seconds (JVM running for 6.523)
+2020-03-25 17:12:34.800  INFO 12004 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:12:34.968  INFO 12004 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:12:35.020 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:12:54.755  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:12:54 GMT+08:00 2020
+2020-03-25 17:12:54.771 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:13:14.756  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:13:14 GMT+08:00 2020
+2020-03-25 17:13:14.762 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:13:34.756  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:13:34 GMT+08:00 2020
+2020-03-25 17:13:34.763 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:13:54.755  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:13:54 GMT+08:00 2020
+2020-03-25 17:13:54.764 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:14:14.755  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:14:14 GMT+08:00 2020
+2020-03-25 17:14:14.769 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:14:34.755  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:14:34 GMT+08:00 2020
+2020-03-25 17:14:34.759 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:14:54.756  INFO 12004 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:14:54 GMT+08:00 2020
+2020-03-25 17:14:54.763 ERROR 12004 --- [scheduling-1] o.s.s.s.TaskUtils$LoggingErrorHandler    : Unexpected error occurred in scheduled task
+
+java.lang.NullPointerException: null
+	at sifan.forum.cache.HotTagCache.updateTags(HotTagCache.java:36) ~[classes/:na]
+	at sifan.forum.schedule.HotTagTasks.hotTagSchedule(HotTagTasks.java:55) ~[classes/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_231]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_231]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_231]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[na:1.8.0_231]
+	at org.springframework.scheduling.support.ScheduledMethodRunnable.run(ScheduledMethodRunnable.java:84) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.scheduling.support.DelegatingErrorHandlingRunnable.run(DelegatingErrorHandlingRunnable.java:54) ~[spring-context-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [na:1.8.0_231]
+	at java.util.concurrent.FutureTask.runAndReset(FutureTask.java:308) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.access$301(ScheduledThreadPoolExecutor.java:180) [na:1.8.0_231]
+	at java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:294) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 17:18:34.909  INFO 18248 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 18248 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:18:34.912  INFO 18248 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:18:34.982  INFO 18248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:18:34.982  INFO 18248 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:18:36.478  INFO 18248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:18:36.487  INFO 18248 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:18:36.487  INFO 18248 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:18:36.489  INFO 18248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:18:36.489  INFO 18248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:18:36.490  INFO 18248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:18:36.490  INFO 18248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:18:37.564  INFO 18248 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:18:37.876  INFO 18248 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:18:37.877  INFO 18248 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2895 ms
+2020-03-25 17:18:38.506  INFO 18248 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:18:38.578  INFO 18248 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:18:38.692  INFO 18248 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 17:18:38.983  INFO 18248 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:18:39.008  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:18:39 GMT+08:00 2020
+2020-03-25 17:18:39.040  INFO 18248 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 17:18:39.043  INFO 18248 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.629 seconds (JVM running for 6.718)
+2020-03-25 17:18:39.049  INFO 18248 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:18:39.186  INFO 18248 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:18:39.265  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:18:39 GMT+08:00 2020
+2020-03-25 17:18:59.009  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:18:59 GMT+08:00 2020
+2020-03-25 17:18:59.028  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:18:59 GMT+08:00 2020
+2020-03-25 17:19:19.009  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:19:19 GMT+08:00 2020
+2020-03-25 17:19:19.014  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:19:19 GMT+08:00 2020
+2020-03-25 17:19:39.008  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:19:39 GMT+08:00 2020
+2020-03-25 17:19:39.019  INFO 18248 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:19:39 GMT+08:00 2020
+2020-03-25 17:32:41.525  INFO 11444 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 11444 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:32:41.529  INFO 11444 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:32:41.605  INFO 11444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:32:41.628  INFO 11444 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:32:42.980  INFO 11444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:32:42.988  INFO 11444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:32:42.989  INFO 11444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:32:42.992  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:32:42.992  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:32:42.992  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:32:42.992  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:32:44.064  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:32:44.351  INFO 11444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:32:44.351  INFO 11444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2722 ms
+2020-03-25 17:32:45.008  INFO 11444 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:32:45.068  INFO 11444 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:32:45.171  INFO 11444 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 17:32:45.457  INFO 11444 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:32:45.483  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:32:45 GMT+08:00 2020
+2020-03-25 17:32:45.510  INFO 11444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 17:32:45.513  INFO 11444 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.469 seconds (JVM running for 6.571)
+2020-03-25 17:32:45.520  INFO 11444 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:32:45.626  INFO 11444 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:32:45.671  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:32:45 GMT+08:00 2020
+2020-03-25 17:33:05.483  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:33:05 GMT+08:00 2020
+2020-03-25 17:33:05.491  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:33:05 GMT+08:00 2020
+2020-03-25 17:33:25.484  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:33:25 GMT+08:00 2020
+2020-03-25 17:33:25.488  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:33:25 GMT+08:00 2020
+2020-03-25 17:33:35.954  INFO 11444 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:33:35.954  INFO 11444 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:33:35.964  INFO 11444 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 10 ms
+2020-03-25 17:33:45.483  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:33:45 GMT+08:00 2020
+2020-03-25 17:33:45.487  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:33:45 GMT+08:00 2020
+2020-03-25 17:34:05.486  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:34:05 GMT+08:00 2020
+2020-03-25 17:34:05.517  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:34:05 GMT+08:00 2020
+2020-03-25 17:34:25.485  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:34:25 GMT+08:00 2020
+2020-03-25 17:34:25.490  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:34:25 GMT+08:00 2020
+2020-03-25 17:34:45.484  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:34:45 GMT+08:00 2020
+2020-03-25 17:34:45.494  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:34:45 GMT+08:00 2020
+2020-03-25 17:35:05.483  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:35:05 GMT+08:00 2020
+2020-03-25 17:35:05.487  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:35:05 GMT+08:00 2020
+2020-03-25 17:35:25.483  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:35:25 GMT+08:00 2020
+2020-03-25 17:35:25.492  INFO 11444 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:35:25 GMT+08:00 2020
+2020-03-25 17:35:42.487  INFO 11444 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-03-25 17:35:42.488  INFO 11444 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:35:42.489  INFO 11444 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 17:35:42.501  INFO 11444 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 17:35:43.357  INFO 11444 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 11444 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:35:43.357  INFO 11444 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:35:43.959  INFO 11444 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:35:43.960  INFO 11444 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:35:43.960  INFO 11444 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:35:43.960  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:35:43.960  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:35:43.960  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:35:43.961  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:35:43.961  INFO 11444 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:35:44.290  INFO 11444 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:35:44.291  INFO 11444 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 931 ms
+2020-03-25 17:35:44.472  WARN 11444 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'indexController': Unsatisfied dependency expressed through field 'hotTagCache'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'sifan.forum.cache.HotTagCache' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-25 17:35:44.473  INFO 11444 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2020-03-25 17:35:44.480  INFO 11444 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-03-25 17:35:44.610 ERROR 11444 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field hotTagCache in sifan.forum.controller.IndexController required a bean of type 'sifan.forum.cache.HotTagCache' that could not be found.
+
+The injection point has the following annotations:
+	- @org.springframework.beans.factory.annotation.Autowired(required=true)
+
+
+Action:
+
+Consider defining a bean of type 'sifan.forum.cache.HotTagCache' in your configuration.
+
+2020-03-25 17:36:34.587  INFO 16696 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 16696 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:36:34.592  INFO 16696 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:36:34.660  INFO 16696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:36:34.661  INFO 16696 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:36:36.115  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:36:36.125  INFO 16696 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:36:36.126  INFO 16696 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:36:36.128  INFO 16696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:36:36.128  INFO 16696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:36:36.129  INFO 16696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:36:36.129  INFO 16696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:36:37.183  INFO 16696 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:36:37.473  INFO 16696 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:36:37.474  INFO 16696 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2812 ms
+2020-03-25 17:36:38.115  INFO 16696 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:36:38.184  INFO 16696 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:36:38.284  INFO 16696 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 17:36:38.569  INFO 16696 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:36:38.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:36:38 GMT+08:00 2020
+2020-03-25 17:36:38.621  INFO 16696 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 17:36:38.624  INFO 16696 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.507 seconds (JVM running for 6.573)
+2020-03-25 17:36:38.631  INFO 16696 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:36:38.762  INFO 16696 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:36:38.832  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:36:38 GMT+08:00 2020
+2020-03-25 17:36:52.530  INFO 16696 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:36:52.531  INFO 16696 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:36:52.540  INFO 16696 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-03-25 17:36:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:36:58 GMT+08:00 2020
+2020-03-25 17:36:58.603  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:36:58 GMT+08:00 2020
+2020-03-25 17:37:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:37:18 GMT+08:00 2020
+2020-03-25 17:37:18.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:37:18 GMT+08:00 2020
+2020-03-25 17:37:38.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:37:38 GMT+08:00 2020
+2020-03-25 17:37:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:37:38 GMT+08:00 2020
+2020-03-25 17:37:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:37:58 GMT+08:00 2020
+2020-03-25 17:37:58.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:37:58 GMT+08:00 2020
+2020-03-25 17:38:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:38:18 GMT+08:00 2020
+2020-03-25 17:38:18.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:38:18 GMT+08:00 2020
+2020-03-25 17:38:38.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:38:38 GMT+08:00 2020
+2020-03-25 17:38:38.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:38:38 GMT+08:00 2020
+2020-03-25 17:38:58.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:38:58 GMT+08:00 2020
+2020-03-25 17:38:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:38:58 GMT+08:00 2020
+2020-03-25 17:39:18.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:39:18 GMT+08:00 2020
+2020-03-25 17:39:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:39:18 GMT+08:00 2020
+2020-03-25 17:39:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:39:38 GMT+08:00 2020
+2020-03-25 17:39:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:39:38 GMT+08:00 2020
+2020-03-25 17:39:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:39:58 GMT+08:00 2020
+2020-03-25 17:39:58.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:39:58 GMT+08:00 2020
+2020-03-25 17:40:18.649  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:40:18 GMT+08:00 2020
+2020-03-25 17:40:18.684  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:40:18 GMT+08:00 2020
+2020-03-25 17:40:38.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:40:38 GMT+08:00 2020
+2020-03-25 17:40:38.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:40:38 GMT+08:00 2020
+2020-03-25 17:40:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:40:58 GMT+08:00 2020
+2020-03-25 17:40:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:40:58 GMT+08:00 2020
+2020-03-25 17:41:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:41:18 GMT+08:00 2020
+2020-03-25 17:41:18.610  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:41:18 GMT+08:00 2020
+2020-03-25 17:41:38.597  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:41:38 GMT+08:00 2020
+2020-03-25 17:41:38.604  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:41:38 GMT+08:00 2020
+2020-03-25 17:41:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:41:58 GMT+08:00 2020
+2020-03-25 17:41:58.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:41:58 GMT+08:00 2020
+2020-03-25 17:42:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:42:18 GMT+08:00 2020
+2020-03-25 17:42:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:42:18 GMT+08:00 2020
+2020-03-25 17:42:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:42:38 GMT+08:00 2020
+2020-03-25 17:42:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:42:38 GMT+08:00 2020
+2020-03-25 17:42:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:42:58 GMT+08:00 2020
+2020-03-25 17:42:58.603  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:42:58 GMT+08:00 2020
+2020-03-25 17:43:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:43:18 GMT+08:00 2020
+2020-03-25 17:43:18.597  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:43:18 GMT+08:00 2020
+2020-03-25 17:43:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:43:38 GMT+08:00 2020
+2020-03-25 17:43:38.603  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:43:38 GMT+08:00 2020
+2020-03-25 17:43:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:43:58 GMT+08:00 2020
+2020-03-25 17:43:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:43:58 GMT+08:00 2020
+2020-03-25 17:44:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:44:18 GMT+08:00 2020
+2020-03-25 17:44:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:44:18 GMT+08:00 2020
+2020-03-25 17:44:38.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:44:38 GMT+08:00 2020
+2020-03-25 17:44:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:44:38 GMT+08:00 2020
+2020-03-25 17:44:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:44:58 GMT+08:00 2020
+2020-03-25 17:44:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:44:58 GMT+08:00 2020
+2020-03-25 17:45:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:45:18 GMT+08:00 2020
+2020-03-25 17:45:18.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:45:18 GMT+08:00 2020
+2020-03-25 17:45:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:45:38 GMT+08:00 2020
+2020-03-25 17:45:38.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:45:38 GMT+08:00 2020
+2020-03-25 17:45:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:45:58 GMT+08:00 2020
+2020-03-25 17:45:58.600  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:45:58 GMT+08:00 2020
+2020-03-25 17:46:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:46:18 GMT+08:00 2020
+2020-03-25 17:46:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:46:18 GMT+08:00 2020
+2020-03-25 17:46:38.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:46:38 GMT+08:00 2020
+2020-03-25 17:46:38.597  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:46:38 GMT+08:00 2020
+2020-03-25 17:46:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:46:58 GMT+08:00 2020
+2020-03-25 17:46:58.597  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:46:58 GMT+08:00 2020
+2020-03-25 17:47:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:47:18 GMT+08:00 2020
+2020-03-25 17:47:18.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:47:18 GMT+08:00 2020
+2020-03-25 17:47:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:47:38 GMT+08:00 2020
+2020-03-25 17:47:38.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:47:38 GMT+08:00 2020
+2020-03-25 17:47:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:47:58 GMT+08:00 2020
+2020-03-25 17:47:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:47:58 GMT+08:00 2020
+2020-03-25 17:48:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:48:18 GMT+08:00 2020
+2020-03-25 17:48:18.603  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:48:18 GMT+08:00 2020
+2020-03-25 17:48:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:48:38 GMT+08:00 2020
+2020-03-25 17:48:38.602  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:48:38 GMT+08:00 2020
+2020-03-25 17:48:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:48:58 GMT+08:00 2020
+2020-03-25 17:48:58.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:48:58 GMT+08:00 2020
+2020-03-25 17:49:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:49:18 GMT+08:00 2020
+2020-03-25 17:49:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:49:18 GMT+08:00 2020
+2020-03-25 17:49:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:49:38 GMT+08:00 2020
+2020-03-25 17:49:38.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:49:38 GMT+08:00 2020
+2020-03-25 17:49:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:49:58 GMT+08:00 2020
+2020-03-25 17:49:58.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:49:58 GMT+08:00 2020
+2020-03-25 17:50:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:50:18 GMT+08:00 2020
+2020-03-25 17:50:18.597  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:50:18 GMT+08:00 2020
+2020-03-25 17:50:38.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:50:38 GMT+08:00 2020
+2020-03-25 17:50:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:50:38 GMT+08:00 2020
+2020-03-25 17:50:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:50:58 GMT+08:00 2020
+2020-03-25 17:50:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:50:58 GMT+08:00 2020
+2020-03-25 17:51:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:51:18 GMT+08:00 2020
+2020-03-25 17:51:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:51:18 GMT+08:00 2020
+2020-03-25 17:51:38.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:51:38 GMT+08:00 2020
+2020-03-25 17:51:38.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:51:38 GMT+08:00 2020
+2020-03-25 17:51:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:51:58 GMT+08:00 2020
+2020-03-25 17:51:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:51:58 GMT+08:00 2020
+2020-03-25 17:52:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:52:18 GMT+08:00 2020
+2020-03-25 17:52:18.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:52:18 GMT+08:00 2020
+2020-03-25 17:52:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:52:38 GMT+08:00 2020
+2020-03-25 17:52:38.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:52:38 GMT+08:00 2020
+2020-03-25 17:52:58.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:52:58 GMT+08:00 2020
+2020-03-25 17:52:58.599  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:52:58 GMT+08:00 2020
+2020-03-25 17:53:18.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:53:18 GMT+08:00 2020
+2020-03-25 17:53:18.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:53:18 GMT+08:00 2020
+2020-03-25 17:53:38.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:53:38 GMT+08:00 2020
+2020-03-25 17:53:38.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:53:38 GMT+08:00 2020
+2020-03-25 17:53:58.595  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:53:58 GMT+08:00 2020
+2020-03-25 17:53:58.598  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:53:58 GMT+08:00 2020
+2020-03-25 17:54:18.594  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:54:18 GMT+08:00 2020
+2020-03-25 17:54:18.596  INFO 16696 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:54:18 GMT+08:00 2020
+2020-03-25 17:54:51.336  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 13148 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 17:54:51.339  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 17:54:51.400  INFO 13148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-03-25 17:54:51.400  INFO 13148 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-03-25 17:54:52.874  INFO 13148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 17:54:52.884  INFO 13148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 17:54:52.884  INFO 13148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 17:54:52.887  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 17:54:52.887  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 17:54:52.887  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 17:54:52.887  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 17:54:53.947  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 17:54:54.260  INFO 13148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 17:54:54.260  INFO 13148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2860 ms
+2020-03-25 17:54:54.912  INFO 13148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 17:54:54.974  INFO 13148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 17:54:55.087  INFO 13148 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 17:54:55.396  INFO 13148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 17:54:55.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:54:55 GMT+08:00 2020
+2020-03-25 17:54:55.462  INFO 13148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 17:54:55.465  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 4.567 seconds (JVM running for 6.631)
+2020-03-25 17:54:55.481  INFO 13148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-03-25 17:54:55.654  INFO 13148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-03-25 17:54:55.735  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:54:55 GMT+08:00 2020
+2020-03-25 17:55:04.471  INFO 13148 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 17:55:04.471  INFO 13148 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 17:55:04.479  INFO 13148 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
+2020-03-25 17:55:15.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:55:15 GMT+08:00 2020
+2020-03-25 17:55:15.436  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:55:15 GMT+08:00 2020
+2020-03-25 17:55:35.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:55:35 GMT+08:00 2020
+2020-03-25 17:55:35.434  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:55:35 GMT+08:00 2020
+2020-03-25 17:55:55.431  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:55:55 GMT+08:00 2020
+2020-03-25 17:55:55.435  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:55:55 GMT+08:00 2020
+2020-03-25 17:56:15.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:56:15 GMT+08:00 2020
+2020-03-25 17:56:15.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:56:15 GMT+08:00 2020
+2020-03-25 17:56:35.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:56:35 GMT+08:00 2020
+2020-03-25 17:56:35.436  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:56:35 GMT+08:00 2020
+2020-03-25 17:56:55.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:56:55 GMT+08:00 2020
+2020-03-25 17:56:55.435  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:56:55 GMT+08:00 2020
+2020-03-25 17:57:15.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:57:15 GMT+08:00 2020
+2020-03-25 17:57:15.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:57:15 GMT+08:00 2020
+2020-03-25 17:57:35.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:57:35 GMT+08:00 2020
+2020-03-25 17:57:35.434  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:57:35 GMT+08:00 2020
+2020-03-25 17:57:55.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:57:55 GMT+08:00 2020
+2020-03-25 17:57:55.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:57:55 GMT+08:00 2020
+2020-03-25 17:58:15.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:58:15 GMT+08:00 2020
+2020-03-25 17:58:15.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:58:15 GMT+08:00 2020
+2020-03-25 17:58:35.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:58:35 GMT+08:00 2020
+2020-03-25 17:58:35.431  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:58:35 GMT+08:00 2020
+2020-03-25 17:58:55.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:58:55 GMT+08:00 2020
+2020-03-25 17:58:55.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:58:55 GMT+08:00 2020
+2020-03-25 17:59:15.431  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:59:15 GMT+08:00 2020
+2020-03-25 17:59:15.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:59:15 GMT+08:00 2020
+2020-03-25 17:59:35.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:59:35 GMT+08:00 2020
+2020-03-25 17:59:35.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:59:35 GMT+08:00 2020
+2020-03-25 17:59:55.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 17:59:55 GMT+08:00 2020
+2020-03-25 17:59:55.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 17:59:55 GMT+08:00 2020
+2020-03-25 18:00:15.431  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:00:15 GMT+08:00 2020
+2020-03-25 18:00:15.434  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:00:15 GMT+08:00 2020
+2020-03-25 18:00:35.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:00:35 GMT+08:00 2020
+2020-03-25 18:00:35.433  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:00:35 GMT+08:00 2020
+2020-03-25 18:00:55.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:00:55 GMT+08:00 2020
+2020-03-25 18:00:55.434  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:00:55 GMT+08:00 2020
+2020-03-25 18:01:15.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:01:15 GMT+08:00 2020
+2020-03-25 18:01:15.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:01:15 GMT+08:00 2020
+2020-03-25 18:01:35.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:01:35 GMT+08:00 2020
+2020-03-25 18:01:35.431  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:01:35 GMT+08:00 2020
+2020-03-25 18:01:55.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:01:55 GMT+08:00 2020
+2020-03-25 18:01:55.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:01:55 GMT+08:00 2020
+2020-03-25 18:02:15.430  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:02:15 GMT+08:00 2020
+2020-03-25 18:02:15.432  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:02:15 GMT+08:00 2020
+2020-03-25 18:02:30.998  INFO 13148 --- [Thread-14] o.s.s.c.ThreadPoolTaskScheduler          : Shutting down ExecutorService 'taskScheduler'
+2020-03-25 18:02:31.000  INFO 13148 --- [Thread-14] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-25 18:02:31.000  INFO 13148 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2020-03-25 18:02:31.010  INFO 13148 --- [Thread-14] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2020-03-25 18:02:31.997  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 13148 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-03-25 18:02:31.998  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-03-25 18:02:32.614  INFO 13148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-03-25 18:02:32.618  INFO 13148 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-25 18:02:32.618  INFO 13148 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-25 18:02:32.619  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-03-25 18:02:32.620  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-03-25 18:02:32.620  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-03-25 18:02:32.620  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-03-25 18:02:32.621  INFO 13148 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-03-25 18:02:32.805  INFO 13148 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-25 18:02:32.805  INFO 13148 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 804 ms
+2020-03-25 18:02:33.033  INFO 13148 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-25 18:02:33.049  INFO 13148 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-03-25 18:02:33.093  INFO 13148 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-03-25 18:02:33.366  INFO 13148 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-03-25 18:02:33.380  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:02:33 GMT+08:00 2020
+2020-03-25 18:02:33.385  INFO 13148 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-03-25 18:02:33.386  INFO 13148 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 1.418 seconds (JVM running for 464.551)
+2020-03-25 18:02:33.386  INFO 13148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2020-03-25 18:02:33.388  INFO 13148 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2020-03-25 18:02:33.394  INFO 13148 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2020-03-25 18:02:33.429  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:02:33 GMT+08:00 2020
+2020-03-25 18:02:41.312  INFO 13148 --- [http-nio-8887-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-25 18:02:41.312  INFO 13148 --- [http-nio-8887-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-25 18:02:41.318  INFO 13148 --- [http-nio-8887-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-03-25 18:02:41.400 ERROR 13148 --- [http-nio-8887-exec-6] org.thymeleaf.TemplateEngine             : [THYMELEAF][http-nio-8887-exec-6] Exception processing template "index": An error happened during template parsing (template: "class path resource [templates/index.html]")
+
+org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:241) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) [thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) [thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) [spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+Caused by: org.attoparser.ParseException: Exception evaluating SpringEL expression: "pagination.data" (template: "index" - line 29, col 32)
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:393) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 48 common frames omitted
+Caused by: org.thymeleaf.exceptions.TemplateProcessingException: Exception evaluating SpringEL expression: "pagination.data" (template: "index" - line 29, col 32)
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:290) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	... 50 common frames omitted
+Caused by: org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'data' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	... 70 common frames omitted
+
+2020-03-25 18:02:41.407 ERROR 13148 --- [http-nio-8887-exec-6] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.thymeleaf.exceptions.TemplateInputException: An error happened during template parsing (template: "class path resource [templates/index.html]")] with root cause
+
+org.springframework.expression.spel.SpelEvaluationException: EL1007E: Property or field 'data' cannot be found on null
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.readProperty(PropertyOrFieldReference.java:213) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.getValueInternal(PropertyOrFieldReference.java:104) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference.access$000(PropertyOrFieldReference.java:51) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.PropertyOrFieldReference$AccessorLValue.getValue(PropertyOrFieldReference.java:406) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.CompoundExpression.getValueInternal(CompoundExpression.java:92) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.ast.SpelNodeImpl.getValue(SpelNodeImpl.java:112) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.expression.spel.standard.SpelExpression.getValue(SpelExpression.java:337) ~[spring-expression-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.thymeleaf.spring5.expression.SPELVariableExpressionEvaluator.evaluate(SPELVariableExpressionEvaluator.java:263) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.VariableExpression.executeVariableExpression(VariableExpression.java:166) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.SimpleExpression.executeSimple(SimpleExpression.java:66) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:109) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:138) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.expression.Expression.execute(Expression.java:125) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.processor.StandardEachTagProcessor.doProcess(StandardEachTagProcessor.java:73) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractAttributeTagProcessor.doProcess(AbstractAttributeTagProcessor.java:74) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.processor.element.AbstractElementTagProcessor.process(AbstractElementTagProcessor.java:95) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.util.ProcessorConfigurationUtils$ElementTagProcessorWrapper.process(ProcessorConfigurationUtils.java:633) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.ProcessorTemplateHandler.handleOpenElement(ProcessorTemplateHandler.java:1314) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateHandlerAdapterMarkupHandler.handleOpenElementEnd(TemplateHandlerAdapterMarkupHandler.java:304) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler$InlineMarkupAdapterPreProcessorHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:278) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.standard.inline.OutputExpressionInlinePreProcessorHandler.handleOpenElementEnd(OutputExpressionInlinePreProcessorHandler.java:186) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.InlinedOutputExpressionMarkupHandler.handleOpenElementEnd(InlinedOutputExpressionMarkupHandler.java:124) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.attoparser.HtmlElement.handleOpenElementEnd(HtmlElement.java:109) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.HtmlMarkupHandler.handleOpenElementEnd(HtmlMarkupHandler.java:297) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupEventProcessorHandler.handleOpenElementEnd(MarkupEventProcessorHandler.java:402) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.ParsingElementMarkupUtil.parseOpenElement(ParsingElementMarkupUtil.java:159) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseBuffer(MarkupParser.java:710) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parseDocument(MarkupParser.java:301) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.attoparser.MarkupParser.parse(MarkupParser.java:257) ~[attoparser-2.0.5.RELEASE.jar:2.0.5.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parse(AbstractMarkupTemplateParser.java:230) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.templateparser.markup.AbstractMarkupTemplateParser.parseStandalone(AbstractMarkupTemplateParser.java:100) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.engine.TemplateManager.parseAndProcess(TemplateManager.java:666) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1098) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.TemplateEngine.process(TemplateEngine.java:1072) ~[thymeleaf-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.renderFragment(ThymeleafView.java:362) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.thymeleaf.spring5.view.ThymeleafView.render(ThymeleafView.java:189) ~[thymeleaf-spring5-3.0.11.RELEASE.jar:3.0.11.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.render(DispatcherServlet.java:1373) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.processDispatchResult(DispatcherServlet.java:1118) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1057) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:943) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:634) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.2.4.RELEASE.jar:5.2.4.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:367) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1639) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [na:1.8.0_231]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [na:1.8.0_231]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.31.jar:9.0.31]
+	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_231]
+
+2020-03-25 18:02:53.380  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Wed Mar 25 18:02:53 GMT+08:00 2020
+2020-03-25 18:02:53.385  INFO 13148 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Wed Mar 25 18:02:53 GMT+08:00 2020

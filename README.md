@@ -17,6 +17,8 @@
 - cp src/main/resources/application.properties src/main/resources/application-production.properties
 - vim src/main/resources/application-production.properties
 - java -jar -Dspring.profiles.active=production target/forum-0.0.1-SNAPSHOT.jar
+- ps -aux | grep java
+- git pull
 ## 资料
 [Spring 文档](https://spring.io/guides)<br>
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)<br>

@@ -1,4 +1,22 @@
 ## 论坛
+##部署
+##依赖
+- Git
+- JDK
+- Maven
+- MySQL
+##步骤
+- yum update
+- yum install git
+- mkdir App
+- cd App
+- git clone https://github.com/sifanlalala/forum.git
+- yum install maven
+- mvn -v
+- mvn compile package
+- cp src/main/resources/application.properties src/main/resources/application-production.properties
+- vim src/main/resources/application-production.properties
+- java -jar -Dspring.profiles.active=production target/forum-0.0.1-SNAPSHOT.jar
 ## 资料
 [Spring 文档](https://spring.io/guides)<br>
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)<br>
@@ -22,6 +40,7 @@
 [Spring MVC](https://docs.spring.io/spring/docs/5.0.3.RELEASE/spring-framework-reference/web.html#mvc-handlermapping-interceptor)<br>
 [Postman](https://chrome.google.com/webstore/detail/coohjcphdfgbiolnekdpbcijmhambjff)<br>
 [OSS](https://help.aliyun.com/product/31815.html?spm=a2c4g.11174283.6.540.d5fa7da20k6Baz)<br>
+[secureCRT](https://www.vandyke.com/download/securecrt/7.0/index.html)<br>
 ## 脚本
 ```sql
 CREATE TABLE USER

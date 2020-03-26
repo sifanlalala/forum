@@ -19,6 +19,7 @@
 - java -jar -Dspring.profiles.active=production target/forum-0.0.1-SNAPSHOT.jar
 - ps -aux | grep java
 - git pull
+- mvn clean compile flyway:migrate
 ## 资料
 [Spring 文档](https://spring.io/guides)<br>
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)<br>

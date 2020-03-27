@@ -96,7 +96,7 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>6.3.0</version>
                 <configuration>
-                    <url>jdbc:mysql://rm-8vb40002m1u2hdyx758870.mysql.zhangbei.rds.aliyuncs.com:3306/forum?serverTimezone=UTC</url>
+                    <url>jdbc:mysql://rm-8vb40002m1u2hdyx7ho.mysql.zhangbei.rds.aliyuncs.com:3306/forum?serverTimezone=UTC</url>
                     <user>sifanroot</user>
                     <password>iloveyouYSF000</password>
                 </configuration>

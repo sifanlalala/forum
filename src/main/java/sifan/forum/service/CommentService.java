@@ -103,7 +103,7 @@ public class CommentService {
         notificationMapper.insert(notification);
     }
 
-    public List<CommentDTO> listByTargetId(Long id, CommentTypeEnum type) {
+    public List<CommentDTO> ListByTargetId(Long id, CommentTypeEnum type) {
         CommentExample commentExample = new CommentExample();
         commentExample.createCriteria()
                 .andParentIdEqualTo(id)

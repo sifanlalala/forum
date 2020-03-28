@@ -44,7 +44,6 @@ public class CommentController {
         commentService.insert(comment,user);
         return ResultDTO.okOf();
     }
-
     @ResponseBody
     @RequestMapping(value = "/comment/{id}",method = RequestMethod.GET)
     public ResultDTO<List<CommentDTO>> comments(@PathVariable(name = "id") Long id){

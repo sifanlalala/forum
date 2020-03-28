@@ -18,6 +18,17 @@
         <java.version>1.8</java.version>
     </properties>
 
+    <profiles>
+        <profile>
+            <id>dev</id>
+            <properties>
+                <db.url>jdbc:mysql://localhost:3306/forum?serverTimezone=UTC</db.url>
+                <db.user>root</db.user>
+                <db.password>572421516</db.password>
+            </properties>
+        </profile>
+    </profiles>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -96,9 +107,9 @@
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>6.3.0</version>
                 <configuration>
-                    <url>jdbc:mysql://rm-8vb40002m1u2hdyx758870.mysql.zhangbei.rds.aliyuncs.com:3306/forum?serverTimezone=UTC</url>
-                    <user>sifanroot</user>
-                    <password>iloveyouYSF000</password>
+                    <url>${db.url}</url>
+                    <user>${db.user}</user>
+                    <password>${db.password}</password>
                 </configuration>
                 <dependencies>
                     <dependency>

@@ -80,10 +80,8 @@
             <hr class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
             <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                 <h4>热门标签</h4>
-                <ul class="question-related">
-                    <li th:each="tag : ${tags}">
-                        <a th:href="@{/(page=1,search=${search},tag=${tag})}" th:text="${tag}"></a>
-                    </li>
+                    <a th:each="tag : ${tags}" th:href="@{/(page=1,search=${search},tag=${tag})}" th:text="${tag}" class="forum-tag">
+                    </a>
                 </ul>
             </div>
         </div>

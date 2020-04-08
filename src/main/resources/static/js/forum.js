@@ -111,3 +111,74 @@ function collapseComments(e) {
         }
     }
 }
+
+function regist() {
+    console.log("过来了注册");
+    var name = $("#register-username").val();
+    var phone = $("#phonenum").val();
+    var passwd = $("#register-password").val();
+    console.log(name);
+    console.log(phone);
+    console.log(passwd);
+    $.ajax({
+        //几个参数需要注意一下
+        type: "POST",//方法类型
+        dataType: "json",//预期服务器返回的数据类型
+        url: "/userregist",//url
+        data: (
+            {
+                name: name,
+                phonenumber: phone,
+                password: passwd
+            }
+        ),
+
+        success: function (result) {
+            console.log(result.code);//打印服务端返回的数据(调试用)
+            if (result.code == 200) {
+                alert("注册成功");
+                window.location="/login"
+            }
+            if (result.code == 2002)
+                alert("该用户已存在")
+                ;
+        },
+        error: function () {
+            alert(response.message);
+        }
+    })
+};
+
+function loginapi() {
+    console.log("过来了登录");
+    var name = $("#login-phone").val();
+    var passwd = $("#login-password").val();
+    console.log(name);
+    console.log(passwd);
+    $.ajax({
+        //几个参数需要注意一下
+        type: "POST",//方法类型
+        dataType: "json",//预期服务器返回的数据类型
+        url: "/loginapi",//url
+        data: (
+            {
+                phone: name,
+                passwd: passwd
+            }
+        ),
+
+        success: function (result) {
+            console.log(result.code);//打印服务端返回的数据(调试用)
+            if (result.code == 200) {
+                alert("登录成功");
+                window.location = "/"
+            }
+            if (result.code == 2002)
+                alert("该用户不存在，请先注册")
+                ;
+        },
+        error: function () {
+            alert(response.message);
+        }
+    })
+};

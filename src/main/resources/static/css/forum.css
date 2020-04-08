@@ -5,6 +5,11 @@ body{
     background-color: white;
     margin: 30px;
 }
+.forum-tag:hover {
+    background-color: #339dff;
+    color: #fff !important;
+    text-decoration-line: none;
+}
 .forum-tag {
     text-decoration-line: none;
     cursor: pointer;
@@ -111,4 +116,7 @@ body{
 .footer{
     padding: 10px 25%;
     color: #666;
+}
+.red {
+    color: red !important;
 }

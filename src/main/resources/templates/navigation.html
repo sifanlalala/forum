@@ -18,6 +18,11 @@
                     </div>
                     <button type="submit" class="btn btn-default">搜索</button>
                 </form>
+                <ul class="nav navbar-nav">
+                    <li th:each="ad:${#httpServletRequest.getServletContext().getAttribute('NAV')}">
+                        <a th:href="${ad.url}" th:text="${ad.title}" target="_blank"></a>
+                    </li>
+                </ul>
                 <ul class="nav navbar-nav navbar-right">
                     <li th:if="${session.user != null}">
                         <a href="/publish">发布</a>

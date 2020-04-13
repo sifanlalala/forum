@@ -37,6 +37,7 @@
         <table schema="forum" tableName="question" domainObjectName="Question" ></table>
         <table schema="forum" tableName="comment" domainObjectName="Comment" ></table>
         <table schema="forum" tableName="notification" domainObjectName="Notification" ></table>
+        <table schema="forum" tableName="ad" domainObjectName="Ad" ></table>
 
     </context>
 </generatorConfiguration>

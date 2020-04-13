@@ -2,18 +2,8 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title th:text="${question.title}"></title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="/css/forum.css"/>
-    <link rel="stylesheet" href="/css/editormd.preview.min.css"/>
-    <script src="/js/jquery-3.4.1.min.js"></script>
-    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
-    <script src="/js/moment.js" type="application/javascript"></script>
-    <script src="/js/forum.js" type="application/javascript"></script>
-    <script src="/js/editormd.min.js" type="application/javascript"></script>
-    <script src="/js/lib/marked.min.js"></script>
-    <script src="/js/lib/prettify.min.js"></script>
+    <head th:insert="~{import :: head}"></head>
+    <head th:insert="~{import :: markdown}"></head>
 </head>
 <body>
 <div th:insert="~{navigation :: nav}"></div>
@@ -168,8 +158,6 @@
         </div>
     </div>
 </div>
-<div class="footer">
-    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
-</div>
+<div th:insert="~{footer :: foot}"></div>
 </body>
 </html>

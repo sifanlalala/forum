@@ -2,12 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <title>sifan论坛</title>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <link rel="stylesheet" href="/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css"/>
-    <link rel="stylesheet" href="/css/forum.css"/>
-    <script src="/js/jquery-3.4.1.min.js"></script>
-    <script src="/js/bootstrap.min.js" type="application/javascript"></script>
+    <head th:insert="~{import :: head}"></head>
 </head>
 <body>
 <div th:insert="~{navigation :: nav}"></div>
@@ -16,8 +11,6 @@
     <p th:text="${message}">服务太热啦，要不然稍等下再来试试~</p>
     <p><a class="btn btn-primary btn-lg" href="/" role="button">回到主页</a></p>
 </div>
-<div class="footer">
-    Copyright © 2020 · sifan论坛 · 服务器: 阿里云 · 网站程序: Spring Boot · 站长：思帆
-</div>
+<div th:insert="~{footer :: foot}"></div>
 </body>
 </html>

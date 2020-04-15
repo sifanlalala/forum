@@ -1,22 +1,13 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>注册 - sifan论坛</title>
     <link rel="icon"
-          href="http://yansifan.oss-cn-zhangjiakou.aliyuncs.com/6c2d30fa-3179-4019-844b-eecd9e76b9d3.png?Expires=1583560530&OSSAccessKeyId=LTAI4FeGNTHPtoePr5ymGN2R&Signature=p1oIkthrKUEY%2FRE51LE5UEVjFJs%3D"
+          href="https://yansifan.oss-cn-zhangjiakou.aliyuncs.com/11c40e9c-b799-485f-bfba-b58a02662255.png?Expires=1586957863&OSSAccessKeyId=LTAI4FeGNTHPtoePr5ymGN2R&Signature=I%2FqhzpUpxICdVb8nE2HmpKLW%2FyI%3D"
           type="image/x-icon">
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="robots" content="all,follow">
-    <!-- Bootstrap CSS-->
-    <link rel="stylesheet" href="/css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,700">
-    <link rel="stylesheet" href="/css/forum.css">
     <link rel="stylesheet" href="/css/style.default.css" id="theme-stylesheet">
-    <script src="/js/forum.js"></script>
+    <head th:insert="~{import :: head}"></head>
 </head>
 <body>
 <div class="page login-page">
@@ -78,8 +69,6 @@
     </div>
 </div>
 <!-- JavaScript files-->
-<script src="/js/jquery-3.4.1.min.js"></script>
-<script src="/js/bootstrap.min.js"></script>
 <script>
     $(function () {
         /*错误class  form-control is-invalid

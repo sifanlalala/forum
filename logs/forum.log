@@ -228,3 +228,30 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{fo
 2020-04-21 13:48:11.278  INFO 4064 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-21 13:48:11.287  INFO 4064 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
 2020-04-21 14:04:07.153  WARN 4064 --- [http-nio-8887-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [org.springframework.web.bind.MissingServletRequestParameterException: Required String parameter 'code' is not present]
+2020-04-21 15:27:07.563  INFO 17012 --- [restartedMain] sifan.forum.ForumApplication             : Starting ForumApplication on LAPTOP-1I94N8QB with PID 17012 (started by HP in F:\大四毕设\论坛\code\forum)
+2020-04-21 15:27:07.566  INFO 17012 --- [restartedMain] sifan.forum.ForumApplication             : No active profile set, falling back to default profiles: default
+2020-04-21 15:27:07.630  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2020-04-21 15:27:07.631  INFO 17012 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2020-04-21 15:27:10.852  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2020-04-21 15:27:10.862  INFO 17012 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-04-21 15:27:10.862  INFO 17012 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-04-21 15:27:10.864  INFO 17012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.16] of the APR based Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.23]
+2020-04-21 15:27:10.864  INFO 17012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+2020-04-21 15:27:10.864  INFO 17012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-04-21 15:27:10.865  INFO 17012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-04-21 15:27:11.989  INFO 17012 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+2020-04-21 15:27:12.283  INFO 17012 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-04-21 15:27:12.283  INFO 17012 --- [restartedMain] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 4652 ms
+2020-04-21 15:27:13.128  INFO 17012 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-04-21 15:27:13.193  INFO 17012 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2020-04-21 15:27:13.304  INFO 17012 --- [restartedMain] o.s.s.c.ThreadPoolTaskScheduler          : Initializing ExecutorService 'taskScheduler'
+2020-04-21 15:27:13.611  INFO 17012 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2020-04-21 15:27:13.638  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Tue Apr 21 15:27:13 GMT+08:00 2020
+2020-04-21 15:27:13.670  INFO 17012 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2020-04-21 15:27:13.673  INFO 17012 --- [restartedMain] sifan.forum.ForumApplication             : Started ForumApplication in 6.523 seconds (JVM running for 8.789)
+2020-04-21 15:27:13.689  INFO 17012 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2020-04-21 15:27:13.842  INFO 17012 --- [scheduling-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2020-04-21 15:27:13.909  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Tue Apr 21 15:27:13 GMT+08:00 2020
+2020-04-21 15:27:22.894  INFO 17012 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-04-21 15:27:22.895  INFO 17012 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-04-21 15:27:22.901  INFO 17012 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms

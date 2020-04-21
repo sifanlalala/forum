@@ -1,11 +1,11 @@
-## 论坛
-##部署
-##依赖
+## 论坛<br>
+## 部署<br>
+## 依赖<br>
 - Git
 - JDK
 - Maven
 - MySQL
-##步骤
+##步骤<br>
 - yum update
 - yum install git
 - mkdir App
@@ -19,7 +19,7 @@
 - java -jar -Dspring.profiles.active=production target/forum-0.0.1-SNAPSHOT.jar
 - ps -aux | grep java
 - git pull
-## 资料
+## 资料<br>
 [Spring 文档](https://spring.io/guides)<br>
 [Spring Web](https://spring.io/guides/gs/serving-web-content/)<br>
 [es社区](https://elasticsearch.cn/explore)<br>
@@ -33,7 +33,7 @@
 [Editor.md](http://editor.md.ipandao.com/)<br>
 [iconfont](https://www.iconfont.cn/)<br>
 [Scheduling Tasks](https://spring.io/guides/gs/scheduling-tasks/)<br>
-## 工具
+## 工具<br>
 [Git](https://git-scm.com/downloads)<br>
 [Visual Paradigm](https://www.visual-paradigm.com)<br>
 [Flyway](http://flywaydb.org/getstarted/firststeps/maven)<br>
@@ -43,7 +43,7 @@
 [Postman](https://chrome.google.com/webstore/detail/coohjcphdfgbiolnekdpbcijmhambjff)<br>
 [OSS](https://help.aliyun.com/product/31815.html?spm=a2c4g.11174283.6.540.d5fa7da20k6Baz)<br>
 [secureCRT](https://www.vandyke.com/download/securecrt/7.0/index.html)<br>
-## 脚本
+## 脚本<br>
 ```sql
 CREATE TABLE USER
 (

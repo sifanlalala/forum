@@ -29,6 +29,7 @@ public class UserService {
             updateUser.setGmtModified(System.currentTimeMillis());
             updateUser.setAvatarUrl(user.getAvatarUrl());
             updateUser.setName(user.getName());
+            updateUser.setBio(user.getBio());
             updateUser.setToken(user.getToken());
             UserExample example = new UserExample();
             example.createCriteria().andIdEqualTo(dbUser.getId());

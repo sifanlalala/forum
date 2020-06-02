@@ -255,3 +255,7 @@ org.thymeleaf.exceptions.TemplateInputException: Error resolving fragment: "~{fo
 2020-04-21 15:27:22.894  INFO 17012 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
 2020-04-21 15:27:22.895  INFO 17012 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
 2020-04-21 15:27:22.901  INFO 17012 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2020-04-21 18:27:13.638  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Tue Apr 21 18:27:13 GMT+08:00 2020
+2020-04-21 18:27:13.665  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Tue Apr 21 18:27:13 GMT+08:00 2020
+2020-04-21 21:27:13.639  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule start Tue Apr 21 21:27:13 GMT+08:00 2020
+2020-04-21 21:27:13.944  INFO 17012 --- [scheduling-1] sifan.forum.schedule.HotTagTasks         : hotTagSchedule stop Tue Apr 21 21:27:13 GMT+08:00 2020

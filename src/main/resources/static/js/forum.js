@@ -27,7 +27,7 @@ function comment2target(targetId,type,content) {
                 if (response.code == 2003){
                     var isAccepted = confirm(response.message);
                     if (isAccepted){
-                        window.open("https://github.com/login/oauth/authorize?client_id=Iv1.be207b81d5e1e4e4&redirect_uri=http://localhost:8887/callback&scope=user&state=1");
+                        window.open("https://github.com/login/oauth/authorize?client_id=e04f2c7f5f90760992e3&redirect_uri=http://39.101.199.197/callback&scope=user&state=1");
                         window.localStorage.setItem("closable", true);
                     }
                 }else{

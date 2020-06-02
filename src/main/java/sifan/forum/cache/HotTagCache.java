@@ -37,3 +37,4 @@ public class HotTagCache {
         hots = sortedTags;
     }
 }
+

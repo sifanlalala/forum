@@ -5,7 +5,23 @@
 - JDK
 - Maven
 - MySQL
-##步骤<br>
+## 快捷键<br>
+ctrl + alt + V选中后抽取变量 <br>
+ctrl + alt + P选中后抽取传入参数 <br>
+ctrl + F6选中后抽取传入参数 <br>
+ctrl + o 清楚无用的导入 <br>
+ctrl + F6 修改类型<br>
+单行使用alt+shift移动单行代码，ctrl+shifit移动代码块<br>
+ctrl + shift + F12 自动最大化<br>
+ctrl + E 切换最近的窗口<br>
+alt + F7 Debug时选中方法名alt+f7可以快速查找相关依赖<br>
+alt + F7 选中能看是谁传递过来的<br>
+ctrl + alt +m 快速抽取方法<br>
+ctrl + F6移出方法无用入参<br>
+红色是未放入暂存空间<br>
+绿色是已放入未提交<br>
+蓝色代表是有变化<br>
+## 步骤<br>
 - yum update
 - yum install git
 - mkdir App

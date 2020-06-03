@@ -45,7 +45,7 @@ public class RegistController {
             user.setToken(token);
             user.setName(name);
             user.setBio(password);
-            user.setAvatarUrl("https://dwz.cn/jr2lAZ8d");
+            user.setAvatarUrl("http://yansifan.oss-cn-zhangjiakou.aliyuncs.com/11c40e9c-b799-485f-bfba-b58a02662255.png?Expires=1962631209&OSSAccessKeyId=LTAI4FeGNTHPtoePr5ymGN2R&Signature=gl5usglM7RVSeU%2BCwTwZEArtVy8%3D");
             userService.createOrUpdate(user);
             response.addCookie(new Cookie("token", token));
             return RegUserDTO.okOf(token);
